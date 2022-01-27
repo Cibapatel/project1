@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #fff;
+  align-items: center;
+}
+.header{
+  width: 100%;
+  background-color: #f9f9f9;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container {
+  display: flex;
+  width: 100%;
+ margin-left: 150px;
+ margin-right: 150px;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+}
+nav{
+  display: flex;
+  padding: 1% 0%;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: #f9f9f9;
+  width: 100%;
+
+}
+nav img{
+  width: 150px;
+}
+.nav-links{
+  flex: 1;
+  text-align: right;
+  padding-right: 40px;
+}
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+
+}
+.nav-links ul li a{
+  color:darkblue;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.nav-links ul li a{
+  
+  color: darkblue;
+  transition: -5s;
+}
+.nav-links ul li a:hover {
+  
+  color: #00c3c0;
+  display: block;
+}
+.btn{
+  color: #fff;
+  
+}
+.btn{
+  background-color: #00c3c0;
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.body-container{
+  display: flex;
+  position: relative;
+  margin-right: 150px;
+  margin-left: 150px;
+  background-color: #fff;
+}
+.bold-font {
+  font-size: 65px;
+  font-weight: bold 700;
+  color: #1d1d1d;
+  margin-top: 120px;
+  line-height: 1.2;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  font-style: bold;
+  text-align: left;
+}
+.to-left{
+  display: inline-block;
+  flex-wrap: wrap;
+  width: 50%;
+  height: 40%;
+}
+.to-right{
+  display: inline-block;
+  flex-wrap: wrap;
+  max-height: 635px;
+  max-width: 100%;
+  margin-top: 15px;
+}
+.banner{
+  max-height: 635px;
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+  height: 76vh; 
+}
+.descrip{
+  font-size: 30px;
+  color: #1d1d1d;
+  margin-top: 35px;
+  line-height: 1.35;
+  box-sizing: border-box;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+}
+.flex-app{
+  display: flex;
+width: 100%;
+ margin-left: 0px;
+ margin-right: 10px;
+align-items: center;
+justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  box-sizing: border-box;
+}
+.android .apple{
+  background-size: 1440px auto;
+  background-position: -786px, -150px;
+  image-orientation: initial;
+  border-style: none;
+  align-items: baseline;
+  width: 5px;
+  height: 15px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.apple{
+  width: 5px;
+  height: 15px;
+}
+.app-photo{
+  font-size: 20px;
+  color: #000;
+  margin-top: 55px;
+  line-height: 1.52;
+  box-sizing: border-box;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+}
